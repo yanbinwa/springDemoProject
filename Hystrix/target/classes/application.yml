@@ -1,0 +1,7 @@
+hystrix :
+    timeoutInMillions : 3000
+    
+hotel :
+    service_hotel_name : hotelService
+    service_hotel_method_getHotelInfo : getHotelInfo
+    service_hotel_url : 'http://localhost:8082/hotel/getHotelInfo?id=%d&name=%s'

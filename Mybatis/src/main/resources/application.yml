@@ -1,0 +1,11 @@
+database:
+    mysqlProperties:
+        driverClassName : 'com.mysql.jdbc.Driver'
+        url : 'jdbc:mysql://localhost:3306/mytestdb?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8'
+        username : 'root'
+        password : 'root'
+    
+    mybateisProperties:
+        typeAliasesPackage : 'yanbinwa.domain'
+        mapperLocations : 'classpath:mapper/*.xml'
+        
